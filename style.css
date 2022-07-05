@@ -15,7 +15,42 @@
     margin: 10px;
     letter-spacing: 4px;
     
-}#mainheading2{
+}
+form{
+    background: url('https://www.localguidesconnect.com/t5/image/serverpage/image-id/1070250i539F7018032115B4/image-size/large?v=v2&px=999') no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid ;
+    
+
+}
+.inp{
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid #ffff;
+}
+#btn{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px ;
+    background: #744b36;
+    color: #ffff;
+    font-weight: 400;
+    cursor: pointer;
+
+
+}
+#btn:hover{
+    background-color: #b2826a;
+    border-radius: 4px ;
+}
+#mainheading2{
     text-align: center;
     font-size: 50px;
     color: white;
@@ -28,9 +63,9 @@
 .main{
     background: url('https://www.localguidesconnect.com/t5/image/serverpage/image-id/1070250i539F7018032115B4/image-size/large?v=v2&px=999') no-repeat center/cover;
     height: 100vh;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
+    display: none;
 
 }
 
