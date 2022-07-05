@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainheading{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px black;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    margin: 10px;
+    
+}#mainheading2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px black;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.main{
+    background: url('https://www.localguidesconnect.com/t5/image/serverpage/image-id/1070250i539F7018032115B4/image-size/large?v=v2&px=999') no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.timingBox{
+    display: flex;
+    border-radius: 10px;
+    border: 4px solid white;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    backdrop-filter: blur(8px);
+    text-shadow: 0px 0px 55px #454633;
+    box-shadow:  0px 0px 12px 1px black ;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5px;
+    width: 180px;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+.times:hover{
+    color: black;
+}
+.times::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    border-radius: 20px;
+  }
+  
+  .times:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    border-radius: 18px;
+  }
+  
+  .times::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #fff;
+    z-index: -1;
+    transition: transform .5s ease;
+    border-radius: 19px;
+  }
+
+.prayerName{
+    text-decoration: underline;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
