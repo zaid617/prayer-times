@@ -4,13 +4,10 @@ let data = ()=>{
     let country = document.getElementById('country').value;
     let form = document.getElementById('form');
     
-
-
-
     axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&method=1`)
             .then(function (response) {
                 data = response.data;
-                console.log(data);
+
                 
                 document.getElementById('Fajar').innerHTML = "Timing:" +"  "+ data.data.timings.Fajr;
                 document.getElementById('Zohar').innerHTML = "Timing:" +"  "+ data.data.timings.Dhuhr;

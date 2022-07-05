@@ -6,3 +6,12 @@
 .main{
     height: 220vh;
 }
+
+#mainheading3{
+    font-size: 40px;
+    margin-top: 10px;
+    
+}
+.inp{
+    width: 180px;
+}
