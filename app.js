@@ -1,6 +1,7 @@
 let data = ()=>{
     let main = document.getElementById('main');
-    let city = document.getElementById('city');
+    let city = document.getElementById('city').value;
+    let country = document.getElementById('country').value;
     let form = document.getElementById('form');
     
 
