@@ -17,7 +17,7 @@
     
 }
 form{
-    background: url('https://www.localguidesconnect.com/t5/image/serverpage/image-id/1070250i539F7018032115B4/image-size/large?v=v2&px=999') no-repeat center/cover;
+    background: url('https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGlzbGFtaWN8ZW58MHx8MHx8&w=1000&q=80') no-repeat center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -50,7 +50,10 @@ form{
 #btn:hover{
     
     background: #744b36;
-    border-radius: 10px ;
+    border-radius: 20px ;
+    width: 200px;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
 }
 #mainheading2{
     text-align: center;
@@ -76,7 +79,7 @@ form{
 }
 
 .main{
-    background: url('https://www.localguidesconnect.com/t5/image/serverpage/image-id/1070250i539F7018032115B4/image-size/large?v=v2&px=999') no-repeat center/cover;
+    background: url('https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGlzbGFtaWN8ZW58MHx8MHx8&w=1000&q=80') no-repeat center/cover;
     height: 100vh;
     flex-direction: column;
     justify-content: space-around;
