@@ -35,19 +35,19 @@ let data = ()=>{
                 })
                 
                 Fajarbox.addEventListener("mouseout",function show() {
-                    Fajar.innerHTML = "Hover to see";
+                    Fajar.innerHTML = " - - : - -";
                 })
                 Zoharbox.addEventListener("mouseout",function show() {
-                    Zohar.innerHTML = "Hover to see";
+                    Zohar.innerHTML = "- - : - -";
                 })
                 Asarbox.addEventListener("mouseout",function show() {
-                    Asar.innerHTML = "Hover to see";
+                    Asar.innerHTML = "- - : - -";
                 })
                 Maghribbox.addEventListener("mouseout",function show() {
-                    Maghrib.innerHTML = "Hover to see";
+                    Maghrib.innerHTML = "- - : - -";
                 })
                 Eshabox.addEventListener("mouseout",function show() {
-                    Esha.innerHTML = "Hover to see";
+                    Esha.innerHTML = "- - : - -";
                 })
                 
                 
