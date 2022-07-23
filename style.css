@@ -6,7 +6,6 @@ body{
     background: url('https://images.unsplash.com/photo-1512632578888-169bbbc64f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGlzbGFtaWN8ZW58MHx8MHx8&w=1000&q=80') no-repeat center/cover;
 }
 .container{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
